@@ -14,11 +14,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -29,10 +24,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/crieSuaConta": [
+    "/concluir": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/crieSuaConta.js"
+      "static/chunks/pages/concluir.js"
+    ],
+    "/materialDeConstrucao": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/materialDeConstrucao.js"
     ]
   },
   "ampFirstPages": []

@@ -13,6 +13,9 @@ const Box = styled.div`
     text-align: center;
     margin: 0px 0px 8px;
   }
+  h1.cor{
+    color:#6775ee
+  }
   p{
     text-align: center;
     margin: 0px 0px 8px;
