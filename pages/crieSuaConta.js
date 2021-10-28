@@ -17,32 +17,25 @@ export default function NewBox() {
        
       
         <div className="criaConta">
-        
-        
-        
-        <div className="pais">
-          <label><span>País</span></label>
-          <input className="pais" ></input>
-        </div>
-        <div className="ddd">
-          <label><span>DDD</span></label>
-          <input className="ddd" placeholder="+23"
-  pattern="+-[0-9]{3}"></input>
-        </div>
         <div className="celular">
           <label><span>Celular</span></label>
-          <input></input>
+          <input className="cadastro" type="tel" placeholder="01-24567-8910" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}"
+       required></input>
         </div>
         </div>
-        <div className="fornecedor">
+        <div>
+        <a  href="/codigoGerado">
           <button className="criaConta">
           <span className="criaConta">Receber código por SMS</span>
           </button>
+        </a>
         </div>
-        <div className="fornecedor">
+        <div>
+        <a  href="/codigoGerado">
           <button className="criaConta">
           <span className="criaConta">Receber código por WhatsApp</span>
           </button>
+          </a>
         </div>
          
     </Box>

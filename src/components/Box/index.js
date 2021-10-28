@@ -17,39 +17,7 @@ const Box = styled.div`
     text-align: center;
     margin: 0px 0px 8px;
   }
-  h2{
-    align:"inherit";
-    text-align: center;
-    bold:undefined;
-    color:"#757575";
-    gutterBottom:false;
-    inline:false;
-    nowrap:false;
-    margin: 0px 0px 8px;
-  }
-  .boxLink {
-    font-size: 14px;
-    color: #2E7BB4;
-    text-decoration: none;
-    font-weight: 800;
-  }
-  .title {
-    font-size: 32px;
-    font-weight: 400;
-    margin-bottom: 20px;
-  }
-  .subTitle {
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 20px;
-  }
-  .smallTitle {
-    margin-bottom: 20px;
-    font-size: 16px;
-    font-weight: 700;
-    color: #333333;
-    margin-bottom: 20px;
-  }
+
   hr {
     margin-top: 12px;
     margin-bottom: 8px;
@@ -73,22 +41,26 @@ const Box = styled.div`
 .group {
      zoom: 1; /* For IE 6/7 (trigger hasLayout) */
      padding: 16px;
+     margin-left: 10%;
+     margin-top: 10px;
+     margin-bottom: 50px;
+     margin-right: 10%;
 }
-  .cidade {
+  .nome {
     border:1px solid #E0E0E0;
     border-top-left-radius:8px;
     border-top-right-radius:8px;
-    max-width: 100%;
+    max-width: 98.3%;
     ::placeholder {
       color: #e8f1fd;
       opacity: 1;
     }
   }
-  .bairro {
+  .dados {
     border:1px solid #E0E0E0;
     max-width: 100%;
     @media (min-width:960px){
-      width: 50%;
+      width: 49%;
       border-bottom-left-radius:8px;
       float: left;
     }
@@ -97,29 +69,7 @@ const Box = styled.div`
       opacity: 1;
     }
   }
-  .fabricante {
-    border:1px solid #E0E0E0;
-    width: 50%;
-    border-bottom-left-radius:8px;
-    float: left;
-    @media (min-width:960px){
-      width: 25%;
-      border-bottom-left-radius:0px;
-      float: left;
-    }
- 
-  }
-  .material {
-    border:1px solid #E0E0E0;
-    width: 48.5%;
-    border-bottom-right-radius:8px;
-    float: right;
-    @media (min-width:960px){
-      width: 24.1%;
-      float: left;
-      
-    }
-  }
+  
 
   label{
     cursor: default;
@@ -131,42 +81,7 @@ const Box = styled.div`
         font-weight: 500;
         line-height: 1.125rem;
   }
-  .fornecedor{
-    justify-content: center;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-  }
-button.fornecedor {
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: rgb(80, 99, 248);
-    color: rgb(255, 255, 255);
-    min-width: 48px;
-    height: 48px;
-    padding: 4px16px;
-    border-radius: 8px;
-    text-transform: none;
-    cursor: pointer;
-    @media (min-width:960px){
-      margin-left: 25%;
-    margin-right: 25%;
-      
-    }
-    
-  }
-  span.fornecedor {
-    
-    display: block;
-    color: white;
-    text-align: inherit;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5rem;
-    
-}
+  
 .criaConta{
   
   width: 100%;
@@ -182,39 +97,17 @@ button.fornecedor {
     justify-content: space-between;
   }
 }
-.pais {
-  border:1px solid #E0E0E0;
-  width: 49%;
-  border-radius:8px;
-  float: right;
-  @media (min-width:960px){
-    width: 18%;
-    float: left;
-    
-  }
-}
-.ddd {
-  border:1px solid #E0E0E0;
-  border-radius:8px;
-  width: 49%;
-  float: left;
-  @media (min-width:960px){
-    width: 18%;
-    float: left;
-  }
-}
+
 .celular {
   border:1px solid #E0E0E0;
   border-radius:8px;
   width: 100%;
   @media (min-width:960px){
-    width: 60%;
+    width: 100%;
     float: left;
   }
 }
 button.criaConta {
-  
-  width: 50%;
   background-color: white;
   border-color: #6775ee;
   min-width: 48px;
@@ -223,10 +116,11 @@ button.criaConta {
   border-radius: 8px;
   text-transform: none;
   cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
   @media (min-width:960px){
-    margin-left: 25%;
-  margin-right: 25%;
-    
+    width: 80%;
+    float: left;
   }
   
 
@@ -254,18 +148,25 @@ span.criaConta:hover{
   
 }
 input.cadastro{
-  padding: 16px;
-  width: 100%;
-  border:1px solid #E0E0E0;
+  padding: 10px;
+  width: 95%;
+  
   border-radius:8px;
   
   
 }
-cadastroRadio{
-  width:40%;
-  float: left;
-  margin right:50%;
+input.cadastroMeio{
+  padding: 10px;
+  width: 90%;
+  
+  border-radius:8px;
+  
+  
 }
+a.codigo{
+  text-align: center;
+}
+
 `; 
 
 export default Box 
