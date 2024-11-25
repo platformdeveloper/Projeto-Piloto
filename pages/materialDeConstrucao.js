@@ -12,27 +12,23 @@ export default function NewBox() {
       <h1></h1>
     
     <Box>
-      <h1>Materiais de construção</h1>
-      <p>Faça seu orçamento</p>
+      <h1 className="cor">Qual o Valor da sua Lista de Material de construção?</h1>
+      <p>Descubra o melhor valor para sua lista de compras</p>
        
       
         <div className="criaConta">
+
         <div className="celular">
-          <label><span>Texto</span></label>
-          <input className="cadastro"></input>
-          
-        </div>
-        <div className="celular">
-          <label><span>Arquivos</span></label>
+          <label><span>Lista de Material</span></label>
           <input type="file" className="cadastro"></input>
           
         </div>
         </div>
         <div>
 
-        <a  href="">
+        <a  href="concluir">
           <button className="criaConta">
-          <span className="criaConta">Enviar</span>
+          <span className="criaConta">Concluir</span>
           </button>
         </a>
         </div>
